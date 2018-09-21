@@ -12,7 +12,8 @@ class Typer extends Component {
     const options = {
     	strings: strings,
       typeSpeed: 50,
-      backSpeed: 50
+      backSpeed: 0,
+      smartBackspace: true
     };
     // this.el refers to the <span> in the render() method
     this.typed = new Typed(this.el, options);
@@ -27,7 +28,6 @@ class Typer extends Component {
   render() {
     return (
       <div className='wrap'>
-        <h1>Typed.js</h1>
         <div className="type-wrap">
           <span
             style={{ whiteSpace: 'pre' }}

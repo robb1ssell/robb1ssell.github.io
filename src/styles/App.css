@@ -12,8 +12,7 @@ body {
   margin-bottom: 60px;
   /* Margin bottom by footer height */
   background-color: #39373a;
-  color: #ffffff;
-  text-align: center; }
+  color: #ffffff; }
 
 @media screen and (max-width: 767px) {
   #master-container h1 {
