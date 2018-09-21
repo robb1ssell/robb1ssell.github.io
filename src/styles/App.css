@@ -32,6 +32,16 @@ h3 {
   margin: 20px 0px 10px;
 }
 
+hr {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.divider {
+  border-top: 5px solid rgba(255, 255, 255, 0.75);
+  width: 25%;
+}
+
 /**** FOOTER STYLES ****/
 .footer {
   position: absolute;
