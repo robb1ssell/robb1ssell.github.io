@@ -17,7 +17,6 @@ class Main extends Component {
         </div>
 
         <About/>
-        <Footer/>
       </div>
     );
   }

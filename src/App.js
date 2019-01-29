@@ -4,6 +4,7 @@ import './styles/burger-menu.css';
 
 import { scaleRotate as Menu } from 'react-burger-menu';
 import Main from './components/Main';
+import Footer from './components/Footer';
 
 class App extends Component {
 
@@ -28,6 +29,7 @@ class App extends Component {
               <Main/>
             </div>
           </div>
+          <Footer/>
         </div>
       </div>
     );
