@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import Typer from './Typer';
 
 class IntroTextEvent extends Component {
-  
-  dismiss() {
-    this.props.unmountMe();
-  }
   render() {
     return (
       <div id='intro-text' className='introText fadeOut'>

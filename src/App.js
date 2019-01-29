@@ -9,9 +9,7 @@ class App extends Component {
     return (
       <div id='master-container'>
         <div className="container">
-          <div id="page-wrap">
-            <Main/>
-          </div>
+          <Main/>
         </div>
         <Footer/>
       </div>

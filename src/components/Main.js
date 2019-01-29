@@ -5,23 +5,13 @@ import About from './About';
 
 
 class Main extends Component {
-  constructor(){
-    super()
-    this.state = {renderIntro: true};
-    this.handleIntroUnmount = this.handleIntroUnmount.bind(this);
-  }
-
-  handleIntroUnmount(){
-    this.setState({renderIntro: false});
-  }
-  
   render() {
     return (
       <div>
-        <div id='main'>
-          {this.state.renderIntro ? <IntroTextEvent unmountMe={this.handleIntroUnmount} /> : null}
+        <section id='main'>
+          <IntroTextEvent/>
           <Header/>
-        </div>
+        </section>
 
         <About/>
       </div>
