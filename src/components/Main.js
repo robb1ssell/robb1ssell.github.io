@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import IntroTextEvent from './IntroTextEvent';
 import Header from './Header';
 import About from './About';
-import Footer from './Footer';
 
 
 class Main extends Component {
