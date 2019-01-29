@@ -47,7 +47,7 @@ hr {
 }
 
 /** INTRO TEXT STYLES **/
-.intro {
+.introText {
   -webkit-animation-duration: 3s;
   -webkit-animation-fill-mode: both;
   -webkit-animation-delay: 14s;
@@ -69,6 +69,30 @@ hr {
 .fadeOut {
   -webkit-animation-name: fadeOut;
   animation-name: fadeOut;
+}
+
+.headerFadeIn {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-delay: 16s;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-delay: 16s;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }
 
 /**** FOOTER STYLES ****/

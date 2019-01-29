@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './styles/App.css';
 import './styles/burger-menu.css';
-import About from './components/About';
-import Footer from './components/Footer';
 
 import { scaleRotate as Menu } from 'react-burger-menu';
 import Main from './components/Main';
@@ -28,12 +26,9 @@ class App extends Component {
           <div className="container">
             <div id="page-wrap">
               <Main/>
-              <About/>
             </div>
           </div>
         </div>
-        
-        <Footer/>
       </div>
     );
   }
