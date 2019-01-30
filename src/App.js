@@ -8,10 +8,12 @@ class App extends Component {
   componentDidMount = () => {
     setTimeout(function(){
       let skipButton = document.getElementById('skip-intro');
+      let intro = document.getElementById('intro-text');
       if(skipButton){
         skipButton.remove();
+        intro.remove();
       }
-    }, 14500);
+    }, 15500);
   }
 
   skipIntro = () => {
