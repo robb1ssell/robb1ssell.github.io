@@ -65,6 +65,18 @@ hr {
   width: 50%;
 }
 
+#top-nav {
+  display: inline-flex;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.navItem {
+  padding-left: 18px;
+  font-size: 9pt;
+  text-align: center;
+}
+
 /** INTRO TEXT STYLES **/
 .introText {
   -webkit-animation-duration: 3s;
