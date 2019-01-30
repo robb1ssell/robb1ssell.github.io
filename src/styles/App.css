@@ -16,6 +16,13 @@ body {
   color: #ffffff; 
 }
 
+/* SITE BACKGROUND*/
+body {
+  background-image: url("https://lh3.googleusercontent.com/6hwttCmhQsmsQlNHHG4IFSyj5wh8WJBIbJMdSgpQ8e4Ecj6NKv4Tc1b-oXH-ago4eRrwC4SPqWp2Kh0k59f8_ufaFca_xRGoIJ0nf27-1QyxB15dmmpkDDa7XPuGOLGIwRQ4s0ry183JZgYSl_fGxNqFGt-ncYGpPnC5GuU_0E7xObxLdpJWpMZAUHMqq2F9dmOTxhvvxlWlRSq-TJPhJog1uYZrn9Dg0omnChKikbgoOBszyUJwyvpOtBSsDddCk2erMTAQ1WkzgDzqpH1TzMyHt7QPUr_iDh8vAFeIo4ofrVsdfk2DrCtCX2IvU0JCGe1ZQxr04snnpXUZgD6dBMxVNys58n-AEJkUab-UAsACqxkh3z1uH6W5IfoGLV31EXREo07op84fDPVBu5_eEzH8jU0EWRsbP2QLVEPjr0IjCbGY-ySvpRp17Sbwf3PfnqjglLS9051gCpI3K5hXKfTjlNwDh2SRLsgZkJYDZCr19MWVnmZ-BNcC1VCCSWg91I3z639llhKkKxfYuv4O4UKgfxL2fkPOlPfKH1aoeDSM0VoUY8Z8HUD2P-Xlok2FSV1h4T1LJ1lvDZR7aPqahZixudQFz5UVkEJ-74DQ1Rz7EFdn2N4frnWSJ4Iis5m-qQLFYBc7zOtS4uRBYFAoqv0-=w1668-h938-no");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 @media screen and (max-width: 767px) {
   #master-container h1 {
     font-size: 1.2em; 

@@ -13,7 +13,8 @@ class Typer extends Component {
     	strings: strings,
       typeSpeed: 50,
       backSpeed: 0,
-      smartBackspace: true
+      smartBackspace: true,
+      cursorChar: '█'
     };
     // this.el refers to the <span> in the render() method
     this.typed = new Typed(this.el, options);
