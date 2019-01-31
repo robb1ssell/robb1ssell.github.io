@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import IntroTextEvent from './IntroTextEvent';
-import Header from './Header';
+import Home from './Home';
 
 
 class Main extends Component {
@@ -25,8 +25,8 @@ class Main extends Component {
     let nav = document.getElementById('top-nav');
     nav.classList.remove('initialFadeIn', 'fadeIn');
 
-    let header = document.getElementById('header');
-    header.classList.remove('initialFadeIn', 'fadeIn');
+    let home = document.getElementById('home');
+    home.classList.remove('initialFadeIn', 'fadeIn');
   }
 
   render() {
@@ -34,7 +34,7 @@ class Main extends Component {
       <div className='col-sm-12'>
         <section id='main'>
           <IntroTextEvent/>
-          <Header/>
+          <Home/>
           <div id="skip-intro">
             <button id='skipButton' onClick={this.skipIntro}>Skip Intro</button>
           </div>

@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
-class Header extends Component {
+class Home extends Component {
   render() {
     return (
-      <div id='header' className='initialFadeIn fadeIn'>
+      <div id='home' className='initialFadeIn fadeIn'>
         <button id="download-cv-button">DOWNLOAD CV</button>
         <img id='headpic' src="https://media.licdn.com/dms/image/C4E03AQHqVMEDXDkBoQ/profile-displayphoto-shrink_200_200/0?e=1554336000&v=beta&t=eIM9QwZCArfF5CDTD-t0UzNMrWmZRb7m0NFnTwOgk_0" 
           className='center-img' alt="Rob Headshot"/>
         <h1>Robert Bissell</h1>
-        <div id='tagline' className="border-box">
+        <div id='tagline' className="tag-border">
           <h2>Front-End Developer <span className="bar">|</span> UI/UX Designer</h2>
           <h2>Sports Buff <span className="bar">|</span> Gaming Nerd</h2>
         </div>
@@ -22,4 +22,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default Home;
