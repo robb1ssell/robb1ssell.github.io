@@ -5,7 +5,7 @@ class About extends Component {
     return (
       <div>
         <section id='about'>
-          <h1>About</h1>
+          About
         </section>
       </div>
     );
