@@ -106,7 +106,8 @@ hr {
 #contact {
   height: 100vh; }
 
-#about {
+#about,
+#portfolio {
   background-color: #ffffff; }
 
 .section-header {

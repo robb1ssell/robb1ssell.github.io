@@ -100,6 +100,7 @@ hr {
   position: relative;
   overflow: hidden;
 }
+
 .no-gutter > [class*='col-'] {
   padding-right:0;
   padding-left:0;
@@ -118,7 +119,8 @@ hr {
   height: 100vh;
 }
 
-#about {
+#about,
+#portfolio {
   background-color: #ffffff;
 }
 

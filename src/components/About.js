@@ -6,7 +6,7 @@ class About extends Component {
       <div className='col-sm-12'>
         <section id='about' className='page-content'>
           <div className="section-header">
-            <h1>About me</h1>
+            <h1>About Me</h1>
           </div>
         </section>
       </div>

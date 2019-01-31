@@ -20,9 +20,15 @@ class App extends Component {
           <div className="row no-gutter">
             <About/>
           </div>
-          <Skills/>
-          <Portfolio/>
-          <Contact/>
+          <div className="row">
+            <Skills/>
+          </div>
+          <div className="row no-gutter">
+            <Portfolio/>
+          </div>
+          <div className="row">
+            <Contact/>
+          </div>
         </div>
         <Footer/>
       </div>
