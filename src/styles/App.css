@@ -93,8 +93,16 @@ hr {
 }
 
 /* GENERAL STYLE */
-#main {
+#main,
+#about,
+#skills,
+#portfolio,
+#contact {
   height: 100vh;
+}
+
+#about {
+  background-color: #ffffff;
 }
 
 hr {

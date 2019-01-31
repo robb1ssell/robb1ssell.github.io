@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import IntroTextEvent from './IntroTextEvent';
 import Header from './Header';
-import About from './About';
 
 
 class Main extends Component {
@@ -12,8 +11,6 @@ class Main extends Component {
           <IntroTextEvent/>
           <Header/>
         </section>
-
-        <About/>
       </div>
     );
   }

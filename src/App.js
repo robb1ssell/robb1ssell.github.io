@@ -3,6 +3,10 @@ import './styles/App.css';
 import Main from './components/Main';
 import Footer from './components/Footer';
 import TopNav from './components/TopNav';
+import About from './components/About';
+import Skills from './components/Skills';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 
 class App extends Component {
   componentDidMount = () => {
@@ -40,6 +44,10 @@ class App extends Component {
           <TopNav/>
           <Main/>
         </div>
+          <About/>
+          <Skills/>
+          <Portfolio/>
+          <Contact/>
         <Footer/>
       </div>
     );
