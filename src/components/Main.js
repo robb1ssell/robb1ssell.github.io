@@ -6,7 +6,7 @@ import Header from './Header';
 class Main extends Component {
   render() {
     return (
-      <div>
+      <div className='col-sm-12'>
         <section id='main'>
           <IntroTextEvent/>
           <Header/>

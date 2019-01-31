@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class TopNav extends Component {
   render() {
     return (
-      <div id='top-nav' className='initialFadeIn fadeIn'>
+      <div id='top-nav' className='initialFadeIn fadeIn col-sm-12'>
         <div className="navItem"><a href='#main'>HOME</a></div>
         <div className="navItem"><a href='#about'>ABOUT</a></div>
         <div className="navItem"><a href='#skills'>SKILLS</a></div>

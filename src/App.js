@@ -41,8 +41,10 @@ class App extends Component {
           <div id="skip-intro">
             <button id='skipButton' onClick={this.skipIntro}>Skip Intro</button>
           </div>
-          <TopNav/>
-          <Main/>
+          <div className="row">
+            <TopNav/>
+            <Main/>
+          </div>
         </div>
           <About/>
           <Skills/>
