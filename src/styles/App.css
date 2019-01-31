@@ -183,7 +183,7 @@ hr {
   color: #ffffff;
 }
 
-/*** FONT AWESOME SOCIALS ***/
+/*** SOCIALS ***/
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -195,11 +195,15 @@ hr {
 
 .fa:hover {
     opacity: 0.7;
+    color: #ddae2e;
 }
 
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
+#top-socials {
+  padding-top: 75px;
+}
+
+#top-socials i {
+  margin-right: 15px;
 }
 
 /**** FOOTER STYLES ****/
