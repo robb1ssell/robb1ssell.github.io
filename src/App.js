@@ -17,7 +17,7 @@ class App extends Component {
             <TopNav/>
             <Main/>
           </div>
-          <div className="row">
+          <div className="row no-gutter">
             <About/>
           </div>
           <Skills/>
