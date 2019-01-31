@@ -13,9 +13,9 @@ class Header extends Component {
           <h2>Sports Buff <span className="bar">|</span> Gaming Nerd</h2>
         </div>
         <div id="top-socials">
-          <i class="fa fa-linkedin" aria-hidden="true"></i>
-          <i class="fa fa-github" aria-hidden="true"></i>
-          <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          <i className="fa fa-linkedin" aria-hidden="true"></i>
+          <i className="fa fa-github" aria-hidden="true"></i>
+          <i className="fa fa-envelope-o" aria-hidden="true"></i>
         </div>
       </div>
     );
