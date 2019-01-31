@@ -112,6 +112,10 @@ hr {
   margin-top: 30px;
 }
 
+.bar {
+  color: #ddae2e;
+}
+
 #headpic {
   border-radius: 50%;
   border: 4px solid white;
@@ -127,7 +131,7 @@ hr {
 }
 
 #skipButton {
-  background-color: rgb(255, 255, 255); /* Green */
+  background-color: #ddae2e;
   border: none;
   color: black;
   padding: 5px 20px;

@@ -8,8 +8,8 @@ class Header extends Component {
           className='center-img' alt="Rob Headshot"/>
         <h1>Robert Bissell</h1>
         <div id='tagline' className="border-box">
-          <h2>Front-End Developer | UI/UX Designer</h2>
-          <h2>Sports Buff | Gaming Nerd</h2>
+          <h2>Front-End Developer <span className="bar">|</span> UI/UX Designer</h2>
+          <h2>Sports Buff <span className="bar">|</span> Gaming Nerd</h2>
         </div>
       </div>
     );
