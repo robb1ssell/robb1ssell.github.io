@@ -266,6 +266,16 @@ img {
   text-align: center;
   padding-top: 10px; }
 
+#quote-slider {
+  margin-bottom: 30px; }
+
+.slick-dots li button:before {
+  color: #ffffff !important; }
+
+.slick-dots li.slick-active button:before {
+  opacity: 1 !important;
+  color: #ddae2e !important; }
+
 /* End */
 /*** SOCIALS ***/
 .fa {

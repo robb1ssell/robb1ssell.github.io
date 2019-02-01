@@ -5,6 +5,7 @@ import { donut90 } from '../data/donut90';
 import { donut80 } from '../data/donut80';
 import { donut66 } from '../data/donut66';
 import { donut50 } from '../data/donut50';
+import QuoteSlider from './QuoteSlider';
 
 class Skills extends Component {
   render() {
@@ -57,6 +58,7 @@ class Skills extends Component {
             />
           </div>
         </section>
+          <QuoteSlider/>
       </div>
     );
   }
