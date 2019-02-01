@@ -9,6 +9,22 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 
 class App extends Component {
+  componentDidMount = () => {
+    let nav = document.getElementById('top-nav');
+
+    window.addEventListener('scroll', function (e) {
+      e.preventDefault();
+
+      if (document.documentElement.scrollTop || document.body.scrollTop > window.innerHeight) {
+              nav.classList.add('nav-dark');
+              nav.classList.remove('nav-transparent');
+          } else {
+              nav.classList.add('nav-transparent');
+              nav.classList.remove('nav-dark');
+          }
+    });
+  }
+
   render() {
     return (
       <div id='master-container'>

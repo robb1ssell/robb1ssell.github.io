@@ -156,6 +156,10 @@ img {
 
 /* End */
 /* Navbar */
+#top-nav {
+  height: 60px;
+  position: fixed; }
+
 #top-nav ul {
   list-style-type: none;
   margin: 0;
@@ -183,6 +187,13 @@ img {
 
 .active-nav {
   background-color: #ddae2e; }
+
+.nav-dark {
+  background-color: #333;
+  z-index: 9999; }
+
+.nav-transparent {
+  background-color: transparent; }
 
 /* End */
 /* Home */
