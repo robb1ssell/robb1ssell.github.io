@@ -13,29 +13,27 @@ class QuoteSlider extends Component {
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 5000,
-      cssEase: 'linear'
+      cssEase: 'linear',
+      adaptiveHeight: true
     };
 
     return (
       <div id='quote-slider' className='col-sm-12'>
         <Slider {...settings}>
-          <div>
-            <h3>1</h3>
+          <div className='quote'>
+            <p><q>Unless you continually work, evolve, and innovate, 
+              you’ll learn a quick and painful lesson from someone who has.</q></p>
+            <p className='quote-author'>- Cael Sanderson</p>
           </div>
-          <div>
-            <h3>2</h3>
+          <div className='quote'>
+            <p><q>What’s dangerous is not to evolve.</q></p>
+            <p className='quote-author'>- Jeff Bezos</p>
           </div>
-          <div>
-            <h3>3</h3>
-          </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
+          <div className='quote'>
+            <p><q>Mistakes help you evolve. Make them, 
+              don’t be hard on yourself, learn from them, and evolve.</q>
+            </p>
+            <p className='quote-author'>- Anonymous</p>
           </div>
         </Slider>
       </div>

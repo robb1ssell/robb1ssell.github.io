@@ -269,6 +269,12 @@ img {
 #quote-slider {
   margin-bottom: 30px; }
 
+.quote {
+  text-align: center; }
+
+.quote-author {
+  float: right; }
+
 .slick-dots li button:before {
   color: #ffffff !important; }
 
