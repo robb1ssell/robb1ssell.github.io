@@ -17,8 +17,8 @@ class About extends Component {
             </p>
             <p>
               I hate to lose - at anything. My competitive nature was developed at an early age, by my family,
-              and fueled by my love for sports, as well as, video games. I played multiple sports growing up, the 
-              top of which were baseball and golf. I still play golf regularly and I am the shortstop for our team in our
+              and fueled by my love for sports as well as video games. I played multiple sports growing up, the 
+              top of which were baseball and golf. I still play golf regularly and I am the shortstop for my team in a
               local softball league. I also love playing games such as League of Legends and Counter-Strike in my spare time. 
               My first son will be born in March 2019 and I cannot wait to share my passion for sports and competition with him.
             </p>
