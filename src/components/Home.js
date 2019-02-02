@@ -13,9 +13,15 @@ class Home extends Component {
           <h2>Sports Buff <span className="bar">|</span> Gaming Nerd</h2>
         </div>
         <div id="top-socials">
-          <i className="fa fa-linkedin" aria-hidden="true"></i>
-          <i className="fa fa-github" aria-hidden="true"></i>
-          <i className="fa fa-envelope-o" aria-hidden="true"></i>
+          <a href="https://www.linkedin.com/in/robert-bissell-webdev/">
+            <i className="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/robb1ssell">
+            <i className="fa fa-github" aria-hidden="true"></i>
+          </a>
+          <a href="mailto:robertb.webdev@gmail.com">
+            <i className="fa fa-envelope-o" aria-hidden="true"></i>
+          </a>
         </div>
       </div>
     );
