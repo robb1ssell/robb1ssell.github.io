@@ -4,14 +4,19 @@ class Home extends Component {
   render() {
     return (
       <div id='home' className='initialFadeIn fadeIn'>
-        <button id="download-cv-button">DOWNLOAD CV</button>
+        <a href="https://docs.google.com/document/d/11Z-RU5IYyBNYCNvOdyJrBCMOruMIasWB4KKc6g6UoIQ/edit?usp=sharing" download>
+          <button id="download-cv-button">DOWNLOAD CV</button>
+        </a>
+
         <img id='headpic' src="https://media.licdn.com/dms/image/C4E03AQHqVMEDXDkBoQ/profile-displayphoto-shrink_200_200/0?e=1554336000&v=beta&t=eIM9QwZCArfF5CDTD-t0UzNMrWmZRb7m0NFnTwOgk_0" 
           className='center-img' alt="Rob Headshot"/>
         <h1>Robert Bissell</h1>
+
         <div id='tagline' className="tag-border">
           <h2>Front-End Developer <span className="bar">|</span> UI/UX Designer</h2>
           <h2>Sports Buff <span className="bar">|</span> Gaming Nerd</h2>
         </div>
+
         <div id="top-socials">
           <a href="https://www.linkedin.com/in/robert-bissell-webdev/">
             <i className="fa fa-linkedin" aria-hidden="true"></i>
