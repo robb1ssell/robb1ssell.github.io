@@ -35,10 +35,12 @@ class App extends Component {
         <div id="navbar" className="initialFadeIn fadeIn onTop">
           <NavBar 
             items={navBarTargets} 
-            offset={-70}
+            offset={-50}
+            height={50}
             duration={500}
             delay={0}
             backgroundColor={'#1b1b1b'}
+            linkClass={'nav-link'}
           />
         </div>
         <div className="container">
