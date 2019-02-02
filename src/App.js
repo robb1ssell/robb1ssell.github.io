@@ -7,8 +7,11 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import NavBar, { ElementsWrapper } from 'react-scrolling-nav';
+import { navBarTargets } from './data/navBarTargets';
 
 class App extends Component {
+  /*
   componentDidMount = () => {
     let nav = document.getElementById('top-nav');
 
@@ -24,27 +27,39 @@ class App extends Component {
           }
     });
   }
+  */
 
   render() {
     return (
       <div id='master-container'>
+        <div id="navbar" className="initialFadeIn fadeIn onTop">
+          <NavBar 
+            items={navBarTargets} 
+            offset={-70}
+            duration={500}
+            delay={0}
+            backgroundColor={'#1b1b1b'}
+          />
+        </div>
         <div className="container">
-          <div className="row">
-            <TopNav/>
-            <Main/>
-          </div>
-          <div className="row no-gutter">
-            <About/>
-          </div>
-          <div className="row">
-            <Skills/>
-          </div>
-          <div className="row no-gutter">
-            <Portfolio/>
-          </div>
-          <div className="row">
-            <Contact/>
-          </div>
+          <ElementsWrapper items={navBarTargets}>
+            <div className="row" name='home'>
+              {/*<TopNav/>*/}
+              <Main/>
+            </div>
+            <div className="row no-gutter" name='about'>
+              <About/>
+            </div>
+            <div className="row" name='skills'>
+              <Skills/>
+            </div>
+            <div className="row no-gutter" name='portfolio'>
+              <Portfolio/>
+            </div>
+            <div className="row" name='contact'>
+              <Contact/>
+            </div>
+          </ElementsWrapper>
         </div>
         <Footer/>
       </div>

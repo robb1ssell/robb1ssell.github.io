@@ -173,6 +173,16 @@ img {
 /* End */
 
 /* Navbar */
+.onTop {
+  z-index: 9999;
+  height: 70px;
+  position: fixed;
+}
+
+#navbar ul {
+  left: 0 !important;
+}
+
 #top-nav {
   height: 60px;
   position: fixed;
@@ -211,6 +221,7 @@ img {
   background-color: #ddae2e;
 }
 
+/*
 .nav-dark {
   background-color: #333;
   z-index: 9999;
@@ -219,6 +230,7 @@ img {
 .nav-transparent {
   background-color: transparent;
 }
+*/
 /* End */
 
 /* Home */

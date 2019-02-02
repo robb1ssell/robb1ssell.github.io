@@ -22,7 +22,7 @@ class Main extends Component {
     let intro = document.getElementById('intro-text');
     intro.remove();
 
-    let nav = document.getElementById('top-nav');
+    let nav = document.getElementById('navbar');
     nav.classList.remove('initialFadeIn', 'fadeIn');
 
     let home = document.getElementById('home');
