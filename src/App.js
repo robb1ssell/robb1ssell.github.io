@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './styles/App.css';
 import Main from './components/Main';
 import Footer from './components/Footer';
-import TopNav from './components/TopNav';
 import About from './components/About';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
@@ -35,12 +34,13 @@ class App extends Component {
         <div id="navbar" className="initialFadeIn fadeIn onTop">
           <NavBar 
             items={navBarTargets} 
-            offset={-50}
-            height={50}
+            offset={-30}
+            height={'auto'}
             duration={500}
             delay={0}
             backgroundColor={'#1b1b1b'}
             linkClass={'nav-link'}
+            activeLinkClass={'nav-link-active'}
           />
         </div>
         <div className="container">

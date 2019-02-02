@@ -164,8 +164,14 @@ img {
 #navbar ul {
   left: 0 !important; }
 
+.onTop div:nth-child(1) {
+  -webkit-mask-box-image-source: none !important; }
+
 .nav-link {
   font-size: 12px; }
+
+.nav-link-active {
+  background-color: #ddae2e; }
 
 /* End */
 /* Home */
