@@ -296,8 +296,9 @@ img {
 
 /* End */
 /* Contact Page */
-#contact-form input {
-  margin-bottom: 10px; }
+#contact-form input, label {
+  margin-bottom: 5px;
+  display: block; }
 
 /* END */
 /**** FOOTER STYLES ****/

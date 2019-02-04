@@ -96,33 +96,37 @@ class ContactForm extends Component {
     return (
       <div id='contact-form-container'>
         <form id='contact-form' onSubmit={(e) => this.handleSubmit(e)}>
+          <label htmlFor="contact-name">Name</label>
           <input 
-            type="text" 
-            placeholder='Name' 
+            id='contact-name'
+            type="text"
             name='contact_name'
             required 
             onChange={(e) => this.handleNameChange(e)}
             value={this.state.name}
           />
+          <label htmlFor="contact-email">E-Mail</label>
           <input 
+            id='contact-email'
             type="text" 
-            placeholder='E-Mail' 
             name='contact_email'
             required 
             onChange={(e) => this.handleEmailChange(e)}
             value={this.state.email}
           />
+          <label htmlFor="contact-subject">Subject</label>
           <input 
+            id='contact-subject'
             type="text" 
-            placeholder='Subject' 
             name='contact_subject'
             required 
             onChange={(e) => this.handleSubjectChange(e)}
             value={this.state.subject}
           />
+          <label htmlFor="contact-message">Message</label>
           <textarea 
-            name="contact_message" 
             id="contact-message" 
+            name="contact_message" 
             cols="30" 
             rows="10"
             required
@@ -130,7 +134,6 @@ class ContactForm extends Component {
             maxLength='1000'
             className='text-input'
             onChange={(e) => this.handleMessageChange(e)}
-            placeholder='Message'
             value={this.state.message}
           />
           <p className='caption'><em>Min: 50 Max: 1000</em></p>
