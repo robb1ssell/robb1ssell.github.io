@@ -21,9 +21,7 @@ class ContactForm extends Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-
-  static sender = 'robertb.webdev@gmail.com';
-
+  //Monitors user input and updates respective state as user types
   handleNameChange = (e) => {
     this.setState({
       name: e.target.value
@@ -48,6 +46,9 @@ class ContactForm extends Component {
     });
   }
 
+  //Run when contact form button is clicked
+  //Uses EmailValidator package to check email and checks min message length before allowing send
+  //sendMessage is called and state is updated when form is submitted
   handleSubmit = (e) => {
     e.preventDefault();
 
@@ -56,8 +57,8 @@ class ContactForm extends Component {
         formValid: true
       });
 
-      let errors = document.getElementById('errors');
-      errors.innerHTML = '';
+      let status = document.getElementById('status');
+      status.innerHTML = '';
       
       
       this.sendMessage();
@@ -67,20 +68,28 @@ class ContactForm extends Component {
         });
     }
     else {
-      let errors = document.getElementById('errors');
-      errors.innerHTML = 'Invalid E-Mail or Message Length';
+      let status = document.getElementById('status');
+      status.innerHTML = 'Invalid E-Mail or Message Length';
     }
   }
 
+  //Called when form is allowed to be submitted
+  //Uses Email JS sendForm method with a promise that updates state if form was sent
+  //https://www.emailjs.com/docs/sdk/sendform/
+  //Shows user confirmation message if sent successfully
   sendMessage = () => {
     window.emailjs.sendForm('gmail', 'template_DxdlZhiu', '#contact-form')
     .then(res => {
-      console.log("send success", res.status, res.text);
       this.setState({
         formMessageSent: true
       });
     })
     .catch(err => console.error('Failed to send message. Error: ', err));
+
+    if (this.state.formMessageSent === true) {
+      let status = document.getElementById('status');
+      status.innerHTML = 'Message Sent Successfully';
+    } 
   }
 
   render() {
@@ -90,6 +99,7 @@ class ContactForm extends Component {
           <input 
             type="text" 
             placeholder='Name' 
+            name='contact_name'
             required 
             onChange={(e) => this.handleNameChange(e)}
             value={this.state.name}
@@ -97,6 +107,7 @@ class ContactForm extends Component {
           <input 
             type="text" 
             placeholder='E-Mail' 
+            name='contact_email'
             required 
             onChange={(e) => this.handleEmailChange(e)}
             value={this.state.email}
@@ -104,12 +115,13 @@ class ContactForm extends Component {
           <input 
             type="text" 
             placeholder='Subject' 
+            name='contact_subject'
             required 
             onChange={(e) => this.handleSubjectChange(e)}
             value={this.state.subject}
           />
           <textarea 
-            name="contact-message" 
+            name="contact_message" 
             id="contact-message" 
             cols="30" 
             rows="10"
@@ -121,8 +133,7 @@ class ContactForm extends Component {
             placeholder='Message'
             value={this.state.message}
           />
-          <p><em>Min: 50 Max: 1000</em></p>
-          <p id="errors"></p>
+          <p className='caption'><em>Min: 50 Max: 1000</em></p>
           <div className="form-buttons">
             <input 
               type="submit"
@@ -130,6 +141,7 @@ class ContactForm extends Component {
               className='btn submit-button'
             />
           </div>
+          <p id="status"></p>
         </form>
       </div>
     );
