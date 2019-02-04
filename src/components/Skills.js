@@ -27,8 +27,8 @@ class Skills extends Component {
               title={'JavaScript'}
             />
             <Donut
-              data={donut66}
-              percent={'66%'}
+              data={donut80}
+              percent={'80%'}
               title={'React'}
             />
             <Donut
