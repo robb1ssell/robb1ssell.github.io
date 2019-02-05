@@ -21,7 +21,8 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  position: relative; }
+  position: relative;
+  font-family: 'Ubuntu', sans-serif; }
 
 p {
   margin: 0 0 30px; }
