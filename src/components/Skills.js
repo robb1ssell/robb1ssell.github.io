@@ -3,7 +3,6 @@ import Donut from './Donut';
 import { donut95 } from '../data/donut95';
 import { donut90 } from '../data/donut90';
 import { donut80 } from '../data/donut80';
-import { donut66 } from '../data/donut66';
 import { donut50 } from '../data/donut50';
 import QuoteSlider from './QuoteSlider';
 
