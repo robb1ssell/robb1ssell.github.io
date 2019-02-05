@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import pdf from '../files/resume.pdf';
 
 class Home extends Component {
   render() {
     return (
       <div id='home' className='initialFadeIn fadeIn'>
-        <a href="https://docs.google.com/document/d/11Z-RU5IYyBNYCNvOdyJrBCMOruMIasWB4KKc6g6UoIQ/edit?usp=sharing" download>
+        <a href={pdf} download='Robert Bissell Resume'>
           <button id="download-cv-button">DOWNLOAD CV</button>
         </a>
 

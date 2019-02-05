@@ -4,11 +4,11 @@ import { donutHtml } from '../data/donutHtml';
 import { donutJS } from '../data/donutJS';
 import { donutReact } from '../data/donutReact';
 import { donutAngular } from '../data/donutAngular';
-import QuoteSlider from './QuoteSlider';
 import { donutGit } from '../data/donutGit';
 import { donutSQL } from '../data/donutSQL';
 import { donutJquery } from '../data/donutJquery';
 import { donutPython } from '../data/donutPython';
+import QuoteSlider from './QuoteSlider';
 
 class Skills extends Component {
   render() {
