@@ -1,9 +1,9 @@
-export const donut50 = {
+export const donutPython = {
   datasets: [{
     data: [50, 50],
     borderWidth: 0,
     backgroundColor: [
-      '#ddae2e',
+      '#f4c724',
 		  '#ffffff'
     ]
   }]

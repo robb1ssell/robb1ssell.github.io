@@ -1,9 +1,10 @@
-export const donut90 = {
+export const donutHtml = {
   datasets: [{
-    data: [90, 10],
+    data: [47, 48, 5],
     borderWidth: 0,
     backgroundColor: [
-      '#ddae2e',
+      '#226cb5',
+      '#e36028',
 		  '#ffffff'
     ]
   }]

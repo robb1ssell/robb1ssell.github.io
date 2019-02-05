@@ -1,9 +1,9 @@
-export const donut95 = {
+export const donutJquery = {
   datasets: [{
-    data: [95, 5],
+    data: [66, 34],
     borderWidth: 0,
     backgroundColor: [
-      '#ddae2e',
+      '#1d64ac',
 		  '#ffffff'
     ]
   }]

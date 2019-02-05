@@ -1,9 +1,9 @@
-export const donut80 = {
+export const donutSQL = {
   datasets: [{
-    data: [80, 20],
+    data: [90, 10],
     borderWidth: 0,
     backgroundColor: [
-      '#ddae2e',
+      '#33628e',
 		  '#ffffff'
     ]
   }]

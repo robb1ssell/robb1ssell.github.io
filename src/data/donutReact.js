@@ -1,9 +1,9 @@
-export const donut66 = {
+export const donutReact = {
   datasets: [{
-    data: [66, 34],
+    data: [80, 20],
     borderWidth: 0,
     backgroundColor: [
-      '#ddae2e',
+      '#41d8ff',
 		  '#ffffff'
     ]
   }]

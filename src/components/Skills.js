@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 import Donut from './Donut';
-import { donut95 } from '../data/donut95';
-import { donut90 } from '../data/donut90';
-import { donut80 } from '../data/donut80';
-import { donut50 } from '../data/donut50';
+import { donutHtml } from '../data/donutHtml';
+import { donutJS } from '../data/donutJS';
+import { donutReact } from '../data/donutReact';
+import { donutAngular } from '../data/donutAngular';
 import QuoteSlider from './QuoteSlider';
+import { donutGit } from '../data/donutGit';
+import { donutSQL } from '../data/donutSQL';
+import { donutJquery } from '../data/donutJquery';
+import { donutPython } from '../data/donutPython';
 
 class Skills extends Component {
   render() {
@@ -16,42 +20,42 @@ class Skills extends Component {
           </div>
           <div id='donuts' className="row donut-case">
             <Donut
-              data={donut95}
+              data={donutHtml}
               percent={'95%'}
               title={'HTML5/CSS3'}
             />
             <Donut
-              data={donut90}
+              data={donutJS}
               percent={'90%'}
               title={'JavaScript'}
             />
             <Donut
-              data={donut80}
+              data={donutReact}
               percent={'80%'}
               title={'React'}
             />
             <Donut
-              data={donut50}
+              data={donutAngular}
               percent={'50%'}
               title={'Angular/Ember'}
             />
             <Donut
-              data={donut80}
+              data={donutJquery}
               percent={'80%'}
               title={'jQuery'}
             />
             <Donut
-              data={donut95}
+              data={donutGit}
               percent={'95%'}
               title={'Git'}
             />
             <Donut
-              data={donut90}
+              data={donutSQL}
               percent={'90%'}
               title={'SQL'}
             />
             <Donut
-              data={donut50}
+              data={donutPython}
               percent={'50%'}
               title={'Python'}
             />
