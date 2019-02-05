@@ -172,7 +172,7 @@ img {
   font-size: 12px; }
 
 .nav-link-active {
-  background-color: #ddae2e; }
+  color: #ddae2e !important; }
 
 /* End */
 /* Home */
