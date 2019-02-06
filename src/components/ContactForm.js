@@ -127,9 +127,10 @@ class ContactForm extends Component {
           <textarea 
             id="contact-message" 
             name="contact_message" 
-            cols="30" 
+            cols="70" 
             rows="10"
             required
+            draggable='false'
             minLength='50'
             maxLength='1000'
             className='text-input'
