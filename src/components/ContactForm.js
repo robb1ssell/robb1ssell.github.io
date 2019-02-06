@@ -94,8 +94,8 @@ class ContactForm extends Component {
 
   render() {
     return (
-      <div id='contact-form-container'>
-        <form id='contact-form' onSubmit={(e) => this.handleSubmit(e)}>
+      <div id='contact-form-container' className='row'>
+        <form id='contact-form' className='col-md-6' onSubmit={(e) => this.handleSubmit(e)}>
           <label htmlFor="contact-name">Name</label>
           <input 
             id='contact-name'
@@ -127,7 +127,7 @@ class ContactForm extends Component {
           <textarea 
             id="contact-message" 
             name="contact_message" 
-            cols="70" 
+            cols="40" 
             rows="10"
             required
             draggable='false'
