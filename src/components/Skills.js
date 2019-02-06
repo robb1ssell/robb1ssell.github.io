@@ -60,8 +60,8 @@ class Skills extends Component {
               title={'Python'}
             />
           </div>
-        </section>
           <QuoteSlider/>
+        </section>
       </div>
     );
   }
