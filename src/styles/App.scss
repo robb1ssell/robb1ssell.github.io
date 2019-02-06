@@ -43,9 +43,14 @@ img {
   #master-container h1 {
     font-size: 1.5em; 
   }
+
   #master-container h2 {
     font-size: 1.1em; 
-  } 
+  }
+
+  .fa {
+    font-size: 3em !important;
+  }
 }
 /* END */
 
@@ -212,7 +217,7 @@ img {
 .tag-border {
   border: 3px solid #ddae2e;
   padding: 0 15px 10px;
-  margin: 30px auto 0;
+  margin: 60px auto 0;
   width: fit-content;
 }
 
@@ -259,7 +264,7 @@ img {
   margin-top: 10px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   position: absolute;
-  left: 38%;
+  left: 45%;
   top: 92%;
 }
 /* End */
@@ -326,14 +331,8 @@ img {
 
 /*** SOCIALS ***/
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
+  padding: 0 15px;
 }
-
 .fa:hover {
     opacity: 0.7;
     color: #ddae2e;
@@ -345,10 +344,6 @@ img {
 
 #top-socials a {
   color: #ffffff;
-}
-
-#top-socials i {
-  margin-right: 15px;
 }
 /* End */
 

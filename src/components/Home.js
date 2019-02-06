@@ -20,13 +20,13 @@ class Home extends Component {
 
         <div id="top-socials">
           <a href="https://www.linkedin.com/in/robert-bissell-webdev/">
-            <i className="fa fa-linkedin" aria-hidden="true"></i>
+            <i className="fa fa-linkedin fa-5x" aria-hidden="true"></i>
           </a>
           <a href="https://github.com/robb1ssell">
-            <i className="fa fa-github" aria-hidden="true"></i>
+            <i className="fa fa-github fa-5x" aria-hidden="true"></i>
           </a>
           <a href="mailto:robertb.webdev@gmail.com">
-            <i className="fa fa-envelope-o" aria-hidden="true"></i>
+            <i className="fa fa-envelope-o fa-5x" aria-hidden="true"></i>
           </a>
         </div>
       </div>
