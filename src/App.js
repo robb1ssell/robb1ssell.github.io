@@ -43,7 +43,7 @@ class App extends Component {
             activeLinkClass={'nav-link-active'}
           />
         </div>
-        <div className="container">
+        <div className="container-fluid">
           <ElementsWrapper items={navBarTargets}>
             <div className="row" name='home'>
               {/*<TopNav/>*/}
