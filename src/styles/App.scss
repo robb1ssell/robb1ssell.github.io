@@ -51,6 +51,11 @@ img {
   .fa {
     font-size: 3em !important;
   }
+
+  #main {
+    height: 100% !important;
+    min-height: 100%;
+  }
 }
 /* END */
 
@@ -342,6 +347,7 @@ img {
 
 #top-socials {
   padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 #top-socials a {
