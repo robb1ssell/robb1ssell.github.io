@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import MapGL from 'react-map-gl';
+import MapGL, { Marker } from 'react-map-gl';
+import places from '../data/coordinates.json';
 
 const TOKEN = 'pk.eyJ1Ijoicmxid2ViZGV2IiwiYSI6ImNqczNqbXY0dDByMTAzeXBsbXl2MWRwaHgifQ.LuHRu125g5Zp-Y5PSbIEIw';
 
@@ -16,10 +17,22 @@ class About extends Component {
       },
       events: {}
     };
+    this._updateViewport = this._updateViewport.bind(this);
   }
 
   _updateViewport = (viewport) => {
     this.setState({viewport});
+  }
+
+  _renderMarker(place, i) {
+    const {imageUrl, coordinates} = place;
+    return (
+      <Marker key={i} latitude={coordinates[0]} longitude={coordinates[1]} >
+        <div className="place">
+          <img src={imageUrl} alt="marker"/>
+        </div>
+      </Marker>
+    );
   }
 
   render() {
@@ -59,13 +72,16 @@ class About extends Component {
             <div className="col-sm-12 col-md-6" id="map">
               <MapGL
                 {...viewport}
+                dragRotate={false}
                 width='100%'
                 height='100%'
                 min-height='600px'
                 mapStyle="mapbox://styles/mapbox/dark-v9"
                 onViewportChange={this._updateViewport}
                 mapboxApiAccessToken={TOKEN}
-              />
+              >
+                { places.map(this._renderMarker) }
+              </MapGL>
             </div>
           </div>
         </section>
