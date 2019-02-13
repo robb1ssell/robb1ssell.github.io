@@ -27,7 +27,7 @@ class About extends Component {
 
     return (
       <div className='col-sm-12'>
-        <section id='about' className='page-content'>
+        <section id='about' className='page-content pad-sides'>
           <div className="section-header">
             <h1>About Me</h1>
           </div>
@@ -61,6 +61,7 @@ class About extends Component {
                 {...viewport}
                 width='100%'
                 height='100%'
+                min-height='600px'
                 mapStyle="mapbox://styles/mapbox/dark-v9"
                 onViewportChange={this._updateViewport}
                 mapboxApiAccessToken={TOKEN}

@@ -112,6 +112,10 @@ img {
   position: relative;
   overflow: hidden; }
 
+.pad-sides {
+  padding-left: 15px;
+  padding-right: 15px; }
+
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0; }
@@ -246,6 +250,12 @@ img {
 .signature-small {
   height: 60px;
   margin-left: 50%; }
+
+#map {
+  margin-top: 30px; }
+
+#map > div {
+  min-height: 500px; }
 
 /* End */
 /* Skills Page*/
