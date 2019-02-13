@@ -245,7 +245,7 @@ img {
 
 .signature-small {
   height: 60px;
-  float: right; }
+  margin-left: 50%; }
 
 /* End */
 /* Skills Page*/
